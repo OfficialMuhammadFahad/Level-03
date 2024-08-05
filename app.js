@@ -30,5 +30,5 @@ var carName = "Range Rover Sports Edition";
 var companyName = "Land Rover";
 var price = "12CR";
 
-document.getElementById("test").innerHTML = "The favorite car is " + carName + ", " + "the company name is " + companyName + " and the price is " + price + "."
-// document.getElementById("test").innerHTML = "The favorite car is " + carName + "," + "<br>" + "the company name is " + companyName + "<br>" + " and the price is " + price + "."
+// document.getElementById("test").innerHTML = "The favorite car is " + carName + ", " + "the company name is " + companyName + " and the price is " + price + "."
+document.getElementById("test").innerHTML = "The favorite car is " + carName + "," + "<br>" + "the company name is " + companyName + "<br>" + " and the price is " + price + "."
