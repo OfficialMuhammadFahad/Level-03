@@ -27,8 +27,12 @@
 // document.getElementById("test").innerHTML = "The total of price-01 and price-02 is: " + TotalPrice;
 
 var carName = "Range Rover Sports Edition";
+var bikeName = "CB150F";
 var companyName = "Land Rover";
+var companyBike = "Honda";
 var price = "12CR";
+var Bikeprice = "4.5lac";
 
-// document.getElementById("test").innerHTML = "The favorite car is " + carName + ", " + "the company name is " + companyName + " and the price is " + price + "."
-// document.getElementById("test").innerHTML = "The favorite car is " + carName + "," + "<br>" + "the company name is " + companyName + "<br>" + " and the price is " + price + "."
+// document.getElementById("test").innerHTML = "My favorite car is " + carName + ", " + "the company name is " + companyName + " and the price is " + price + "."
+// document.getElementById("test").innerHTML = "My favorite car is " + carName + "," + "<br>" + "the company name is " + companyName + "<br>" + " and the price is " + price + "."
+document.getElementById("test").innerHTML = "My favorite bike is " + bikeName + "," + "<br>" + "the company name is " + companyBike + "<br>" + " and the price is " + Bikeprice + "."
