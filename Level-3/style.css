@@ -1,39 +1,61 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-} */
+:root{
+    --salmon: #fa8072;
+    --dsalmon: #504725;
+    --black: #000000;
+    --white: #ffffff;
+    --cyan: #AEDEE0;
+    --dcyan: #1f2f3f;
+    --selection: #EF9D71;
+    --scoller-thumb: #424242;
+    --scoller-tracker: #E5F1F3;
+}
+
+*::selection{
+    background-color: var(--selection);
+}
 
 body[theme="black"]{
-    background-color: #000000;
+    background-color: var(--black);
 }
 
 body[theme="black"] .section{
-    color: #ffffff;
+    color: var(--white);
 }
 
 body[theme="cyan"]{
-    background-color: #80becc;
+    background-color: var(--cyan);
 }
 
 body[theme="cyan"] .section{
-    color: #1f2f3f;
+    color: var(--dcyan);
 }
 
 body[theme="salmon"]{
-    background-color: salmon;
+    background-color: var(--salmon);
 }
 
 body[theme="salmon"] .section{
-    color: rgb(80, 71, 37);
+    color: var(--dsalmon);
 }
 
 body[theme="white"]{
-    background-color: #ffffff;
+    background-color: var(--white);
 }
 
 body[theme="white"] .section{
-    color: #000000;
+    color: var(--black);
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scoller-tracker);
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scoller-thumb);
+    border-radius: 6px;
 }
